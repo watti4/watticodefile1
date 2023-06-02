@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: #1C2230;
+    font-size: 120%;
+    width: 100%;
+}
+a, p{
+    font-family: "Open" , Sans;
+}
+h2, h3{
+    font-family: Raleway , sans-serif;
+}
+.navtop {
+    display: flex;
+}
+.backgroundimg{
+    background-image: url(images/profile-4.png); 
+    background-repeat: no-repeat;
+    background-size: 110%;
+   
+}
+.logo{
+    margin-top: 6%;
+    margin-right: 50%;
+    margin-left: 4%;
+}
+
+.navhead{
+    color: white;
+    padding-right: 3%;
+    text-decoration: none;
+    margin-top: 7.5%;
+    font-size: 1em;
+    margin-left: 3%;
+}
+.navhead:hover{
+    text-decoration: underline;
+}
+.navhead:active{
+    position: relative;
+    top: 1px;
+}
+
+
+#intropix1{
+    margin-left: 23%;
+    margin-top: 8%;
+}
+#getstared:hover {
+    cursor: pointer;
+
+}
+
+.firstcontent1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.firstheading{
+    color: white;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 130%;
+}
+.firstcontent1 p{
+    color: white;
+    font-size: 1em; 
+    line-height: 30px;
+    width: 70%;
+    margin: auto;  
+}
+#getstared{
+    width: 32%;
+    background-color: #56f0e6 ;
+    padding: 17px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 1.4%;
+    color: white;
+    font-size: 0.8em;
+}
+.firstcontent1 button:active{
+    position: relative;
+    top: 1px;
+}
+
+.fourbox1{
+    display: flex;
+    margin-top: 11%;
+    color: white;
+    text-align: center;   
+    
+}
+.fourbox2{
+    display: flex;
+    margin-top: 11%;
+    color: white;
+    text-align: center;
+}
+.fourbox1 a{
+    font-size: 0.9em;
+}
+.fourbox2 a{
+    font-size: 0.9em;
+}
+.fourbox1 h3{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.fourbox2 h3{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.box1{
+    width: 30%;
+    margin-left: 12%;
+}
+.box2{
+    width: 30%;
+    margin-left: 12%;
+}
+.box3{
+    width: 30%;
+    margin-left: 12%;
+}
+.box4{
+    width: 30%;
+    margin-left: 12%;
+}
+
+.secondcontent2{
+    padding: 4%;
+    margin-bottom:7%;
+    
+}
+
+.secondcontent2 img{
+    float: left;
+}
+
+.secondcontent2 h2{
+    color: white;
+    font-size: 2.3em;
+    margin-top: 11%;
+    line-height: 130%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+.secondcontent2 h3{
+    color: white;
+    font-size: 2.3em;
+    
+}
+.secondcontent2 p{
+    color: white;   
+}
+.arrowicon{
+    display: flex;
+    
+}
+.arrowicon a{
+    color: #91E2DC;
+    margin-right: 1%;
+}
+.arrowicon a:hover{
+    color: white;
+}
+.remindericon{
+margin-left: 8%;
+}
+.threecolumn{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 7%;
+    position: relative;
+    bottom: 11px; 
+    margin-bottom: 10%;  
+}
+.threecolumn img{
+    border-radius: 50%;
+    width: 40px;
+    
+}
+.column{
+    width: 30%;
+    padding: 1.5%;
+    padding-top: 4%;
+    color: white;
+    box-sizing: border-box;
+    background-color: #21293C;
+    font-size: 0.9em;
+    box-shadow: 7px 7px #1C202C;
+}
+
+.info{
+    margin-top: 10%;
+}
+.info img{
+   float: left ;
+   margin-right: 4%;
+}
+.info a {
+    font-size: 0.6em;
+}
+.info h3{
+    font-size: 0.8em;
+}
+.ibwenf{
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: #1C2230;
+    box-shadow: 4px 4px black;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    margin: auto;
+}
+.ibwenf h2{
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.ibwenf p{
+    padding: 0 6%;
+}
+.ibwenf #getstared{
+    width: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.ibwenf #getstared:active{
+        position: relative;
+        top: 1px;
+}
+.ibwenf input{
+    width: 55%;
+    margin-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    border-radius: 30px;
+}
+.ibwenf input:hover{
+   border-color: black;
+}
+footer{
+    background-color: #0C1524;
+    padding-top: 18%;
+    padding-left: 4%;
+    padding-bottom: 8%;
+}
+footer img{
+    padding-left: 5%;
+    
+}
+.foot{
+    display: flex;
+    color: white;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    margin-top: 2.5%;
+    padding-left: 5%;
+    
+}
+.locationimg{
+    padding-right: 2%;
+    position: relative;
+    top: 4px;
+}
+.afootone{
+    width: 27%;
+    margin-right: 5%;
+    line-height: 140%;
+}
+.bfootone{
+    width: 16%;
+    margin-right: 5%;
+}
+.bfootone .bfo1{
+    position: relative;
+    left: 36px;
+    bottom: 21px;
+}
+.bfootone .second{
+    padding-top: 10%;
+}
+.cfootone{
+    width: 10%;
+    margin-right: 4%;
+    line-height: 210%;
+    list-style-type: none;
+
+}
+.dfootone{
+    width: 10%;
+    margin-right: 4%;
+    line-height: 210%;
+    list-style-type: none;
+}
+.efootone{
+    width:12%;
+}
+.efootone .fa-brands{
+    border: solid 1px white;
+    border-radius: 100%;
+    width: 22%;
+    height: 22%;
+    box-sizing: border-box;
+    margin-right: 8%;
+    padding-top:4%;
+    padding-bottom: 4%; 
+    padding-left: 5%; 
+}
+.efootone .fa-brands:hover{
+    background-color: #56f0e6;
+}
+.efootone .fa-brands:active{
+    position: relative;
+    top: 1px;
+}
+
+
+@media screen and (max-width: 600px){
+    
+    .logo {
+        margin-right: 9%;
+    }
+    .logo img{
+        width: 80%;
+    }
+    .navhead{
+        font-size: 0.6em;
+        padding: 1%;
+        margin-left: 1%;
+    }
+    #intropix1{
+        width: 90%;
+        margin-left: 5%;
+     }
+     .firstcontent1{
+        margin-left: 10%;
+        width: 75%;
+     }
+     .firstheading{
+        font-size: 1.2em;
+     }
+     .firstcontent1 p{
+        width: 100%;
+        font-size: 0.8em;
+        line-height: 20px;
+     }
+     .firstcontent1 #getstared{
+        width: 80%;
+        padding: 5% o;
+        font-size: 0.6em;
+     }
+     
+     .fourbox1{
+        display: block;
+     }
+     .fourbox2{
+        display: block;
+
+     }
+     .box1{
+        width: 70%;
+        margin: auto;
+        margin-top: 27%;
+     }
+     .box2{
+        width: 70%;
+        margin: auto;
+        margin-top: 27%;
+     }
+     .box3{
+        width: 70%;
+        margin: auto;
+        margin-top: 27%;
+     }
+     .box4{
+        width: 70%;
+        margin: auto;
+        margin-top: 27%;
+     }
+     .secondcontent2 img{
+        width: 100%;
+        margin-left: 4%;
+        margin-top: 25%;
+        margin-bottom:15%;
+     }
+     .secondcontent2 h2{
+        font-size: 1.2em;
+        width: 100%;
+        margin-bottom: 6%;
+     }
+     .secondcontent2 p{
+        font-size: 0.9em;
+     }
+     .arrowicon a{
+        font-size: 0.9em;
+     }
+     .arrowicon img{
+        width: 5%;
+        position: relative;
+        bottom: 94px;
+        right: 16px;
+     }
+     .remindericon{
+        width: 9%;
+        position: relative;
+        bottom: 57px;
+        left: 10px;
+     }
+    .threecolumn{
+        display: block;
+        position: relative;
+        bottom: 90px;
+        margin-bottom: -5%;
+    }
+    .column{
+        width: 98%;
+        margin: auto;
+        margin-top: 7%;
+        padding: 4% 4%;
+        font-size: 0.8em;
+    }
+    .info{
+        padding-bottom: 5%;
+    }
+    .ibwenf{
+        width: 88%;        
+        font-size: 0.8em;
+        position: relative;
+        top: 150px;
+    }
+    .ibwenf #getstared{
+        width: 75%;
+        margin: 3% 0;
+        padding: 3% 4%;
+    }
+   
+    .ibwenf h2{
+        font-size: 1.2em;
+        margin-top: 13%;
+        margin-bottom: 4%;
+    }
+    .ibwenf input{
+        width: 70%;
+        margin: 5% 0;
+        padding: 3% 2%;
+    }
+    .foot{
+        display: block;
+        
+    }
+    .locationimg img{
+        position: relative;
+        right: 18px;
+        bottom: 133px;
+        
+    }
+    .afootone{
+        width: 90%;
+        position: relative;
+        left: 40px;
+        bottom: 160px;
+   }
+    footer img{
+    margin-top: 45%;
+}
+.bfootone{
+    width: 50%;
+    position: relative;
+    bottom: 230px;
+}
+.bfootone .second{
+    position: relative;
+    bottom: 99px;
+    right: 13px;
+}
+.bfootone img{
+    position: relative;
+    right: 13px;
+}
+.bfootone .bfo1{
+    position: relative;
+    bottom: 120px;
+}
+.cfootone{
+    position: relative;
+    bottom: 220px;
+}
+.dfootone{
+    position: relative;
+    bottom: 150px;
+}
+.efootone{
+    position: relative;
+    bottom: 20px;
+    display: inline;
+    margin-left: 15%;
+}
+.efootone .fa-brands{
+    border: solid 1px white;
+    border-radius: 100%;
+    width: 2%;
+    padding-right: 9%;
+    
+    
+    
+    
+}
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
