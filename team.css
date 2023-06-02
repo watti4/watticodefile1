@@ -1,3 +1,18 @@
+.row{
+    margin-top: 4%;
+    margin-left: 9%;
+}
+.container h2{
+    margin: 10px 0;
+}
+.container p{
+    margin: 5px 0;
+}
+
+
+
+
+
 /* Three columns side by side */
 .column {
     float: left;
@@ -41,7 +56,7 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #183470;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -49,4 +64,8 @@
   
   .button:hover {
     background-color: #555;
+  }
+  .button:active{
+    position: relative;
+    top: 1px;
   }
