@@ -280,7 +280,7 @@ footer img{
 }
 .afootone{
     width: 20%;
-    margin-right: 5%;
+    margin-right: 2%;
     line-height: 140%;
 }
 .bfootone{
@@ -296,19 +296,19 @@ footer img{
     padding-top: 10%;
 }
 .cfootone{
-    width: 20%;
+    width: 23%;
     line-height: 210%;
     list-style-type: none;
 
 }
 .dfootone{
     width: 23%;
-    
     line-height: 210%;
     list-style-type: none;
+   
 }
 .efootone{
-    width:13%;
+    width:11%;
 }
 .efootone .fa-brands{
     border: solid 1px white;
@@ -503,6 +503,8 @@ footer img{
 .dfootone{
     position: relative;
     bottom: 150px;
+    width: 30%;
+   
 }
 .efootone{
     position: relative;
