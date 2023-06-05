@@ -21,7 +21,7 @@ input[type=text],
 
 
 .loginbtn{
-  background-color: #04AA6D;
+  background-color: hsl(198, 60%, 50%);
   color: white;
   padding: 14px 10px;
   margin-top: 19px;
@@ -45,7 +45,7 @@ button:active{
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: hsl(198, 60%, 50%);
   margin-top: 19px;
   margin-bottom: 19px;
   margin-right: 10px;
@@ -101,9 +101,9 @@ a.psw::after {
   form{
     width: 100%;
   }
-
-  
- 
- 
-
+  body h2 {
+    margin-top: 29px;
+  }
 }
+
+
