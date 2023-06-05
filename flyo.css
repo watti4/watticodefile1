@@ -333,15 +333,15 @@ footer img{
 @media screen and (max-width: 600px){
     
     .logo {
-        margin-right: 9%;
+        margin-right: 3%;
     }
     .logo img{
-        width: 80%;
+        width: 65%;
     }
     .navhead{
         font-size: 0.6em;
         padding: 1%;
-        margin-left: 1%;
+        margin-left: 1px;
     }
     #intropix1{
         width: 90%;

@@ -92,6 +92,7 @@ a.psw::after {
 }
 .check{
   font-size: 0.8em;
+  color: white;
 }
 
 
@@ -104,6 +105,17 @@ a.psw::after {
   body h2 {
     margin-top: 29px;
   }
+  .loginbtn{
+    margin-left: 90px;
+  }
+  .check{
+    font-size: 0.6em;
+  }
+  .cancelbtn {
+    padding: 8px 10px;
+    margin-left: 12px;
+  }
+
 }
 
 
